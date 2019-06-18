@@ -8,3 +8,158 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  background: url("../images/bgtile.png") top center repeat-x;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  width: 1020px;
+  margin: 0em auto;
+  padding-top: 18vh;
+}
+
+h1 {
+  color: #1c5380;
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+p {
+  font-size: 1em;
+  color: #2d2d2d;
+  font-weight: normal;
+  line-height: 1.6em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+.mr-1 {
+  margin-right: 1em;
+}
+
+/*Columns width - Grid System to reuse */
+
+.large-4 {
+  width: 33.33333%;
+  position: relative;
+}
+
+.large-5 {
+  width: 41.66667%;
+  position: relative;
+}
+
+.large-7 {
+  width: 58.33333%;
+  position: relative;
+}
+
+.large-8 {
+  width: 66.66667%;
+  position: relative;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.columns {
+  padding: 0.8em;
+}
+
+.left {
+  float: left;
+}
+
+/*Buttons - Compatibility with browsers */
+
+.insta-cta {
+  background: -moz-linear-gradient(top, #6f92b1 5%, #4b769b 100%);
+  background: -webkit-linear-gradient(top, #6f92b1 5%, #4b769b 100%);
+  background: -o-linear-gradient(top, #6f92b1 5%, #4b769b 100%);
+  background: -ms-linear-gradient(top, #6f92b1 5%, #4b769b 100%);
+  background: linear-gradient(to bottom, #6f92b1 5%, #4b769b 100%);
+  background-color: #6f92b1;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #1c5380;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.insta-cta img {
+  vertical-align: middle;
+  padding: 0 0.3em 0 0;
+}
+
+.insta-cta:hover {
+  background: -moz-linear-gradient(top, #4b769b 5%, #6f92b1 100%);
+  background: -webkit-linear-gradient(top, #4b769b 5%, #6f92b1 100%);
+  background: -o-linear-gradient(top, #4b769b 5%, #6f92b1 100%);
+  background: -ms-linear-gradient(top, #4b769b 5%, #6f92b1 100%);
+  background: linear-gradient(to bottom, #4b769b 5%, #6f92b1 100%);
+  background-color: #4b769b;
+}
+
+/*Info-box*/
+.info-box {
+  background: url("../images/frame.png") top center no-repeat transparent;
+  background-size: 100%;
+  padding: 2em 3em;
+}
+
+/*footer navigation*/
+footer {
+  margin-top: 4em;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+footer ul li > a {
+  color: #1c5380;
+  font-size: 0.8em;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 0.8em;
+}
+
+nav ul li > a:hover {
+  color: #06365f;
+}
+
+nav ul li > span {
+  font-size: 0.8em;
+  color: #a0a0a0;
+  font-weight: normal;
+  padding-left: 1em;
+  text-transform: uppercase;
+}
